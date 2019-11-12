@@ -3,10 +3,10 @@
 ##Setup GIT repo on the live server.
 	To setup the inital GIT repon on the live server you will need to 
 	SSH into the live server and run the following commands from your terminal:
-	$ git --bare init
+	```$ git --bare init
 	$ git init
 	$ git remote add origin git://github.com/ActiveWebsite/booj-website.git
-	$ git pull origin master
+	$ git pull origin master```
 
 
 ##To update this repo SSH on the live server:
